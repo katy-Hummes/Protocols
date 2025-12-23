@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+*:focus{
+    outline: none;
+    outline-offset: none;
+    --tw-ring-inset: none;
+    --tw-ring-offset-width: none;
+    --tw-ring-offset-color: none;
+    --tw-ring-color: none !important;
+    --tw-ring-offset-shadow: none;
+    --tw-ring-shadow: none;
+    box-shadow: none;
+    border-color: none;
+}
+
+/* *.v-overlay-container {
+ z-index: 998;
+} */
+
+* .v-toast, .v-toast--top {
+    z-index: 9999 !important; 
+}
+* .v-overlay__content{
+    z-index: 5;
+}
+* .v-overlay__scrim {
+    z-index: 1;
+}
