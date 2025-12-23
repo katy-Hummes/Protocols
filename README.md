@@ -1,5 +1,4 @@
 # Protocols
-# Protocols
 O projeto apresenta um sistema de uma prefeitura, tem 3 tipos de usuários, o Administrador da TI, Administrador do sistema e o Atendente, onde o atendente pode criar pessoas e os protocolos da Prefeitura o Administrador do sistema pode criar os atendentes e também tem acesso adicional as Departamentos e também as Auditorias, já o Administrador da TI tem livre acesso a tudo.
 
 ## Preview
